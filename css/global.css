@@ -1,0 +1,48 @@
+body,html{
+    color: #787878;
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+
+
+/* 用JS去写 */
+.container{
+    padding: 0rem 0.8rem;
+}
+
+p{
+    font-size: 0.6rem;
+    line-height: 2rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 0.8rem;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+/* 工具箱 */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.left-float{
+    float: left;
+}
+.right-float{
+    float: right;
+}
+.clearfix:after,.clearfix:before{
+    clear: both;
+}
+.text-red{
+    color: #e93a57;
+}
