@@ -19,7 +19,10 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li{
 .container{
     padding: 0rem 0.6rem;
 }
-
+img{
+    font-size: 0rem;
+    vertical-align: bottom;
+}
 
 p{
     font-size: 0.65rem;
@@ -53,7 +56,6 @@ h3{
 /* 工具箱 */
 .pre{
     width: 100%;
-    margin: 0.5rem 0rem;
 }
 .text-center{
     text-align: center;
