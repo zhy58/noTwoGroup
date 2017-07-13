@@ -30,7 +30,11 @@
 
  
 
+ssh-keygen -t rsa -C "736955171@qq.com
 
-  
+大概需要三个步骤：
+一、本地生成密钥对；
+二、设置github上的公钥；
+三、修改git的remote url为git协议。
  
 	
