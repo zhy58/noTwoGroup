@@ -6,24 +6,26 @@
 
 /*lgw*/
 
-<<<<<<< HEAD
+
 body,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
 }
-/* 用JS去写 */
-=======
-/* 用JS去写111 */
->>>>>>> 8bbfc48baba90a90c11677837bbd8611f5ce6804
+
+
 .container{
-    padding: 0rem 0.5rem;
-    position: relative;
+    padding: 0rem 0.6rem;
 }
 
 
 p{
-    font-size: 0.6rem;
-    line-height: 2rem;
+    font-size: 0.65rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    text-indent: 1.3rem;
+}
+p+p{
+    margin-top: 0.5rem;
 }
 h1,h2,h3,h4,h5,h6{
     font-size: 0.8rem;
@@ -39,6 +41,10 @@ ul{
     padding: 0;
 }
 /* 工具箱 */
+.pre{
+    width: 100%;
+    margin: 0.5rem 0rem;
+}
 .text-center{
     text-align: center;
 }
@@ -59,9 +65,15 @@ ul{
 }
 
 /* 标题 */
-.title p{
+.title{
+   margin-top: 2rem;
+   position: relative;
+}
+.title .text{
     font-size: 1rem;
-    position: relative;
+    line-height: 0rem;
+    text-align: center;
+    text-indent: 0rem;
 }
 .title p .left,.title p .right{
    content: "";
@@ -70,7 +82,7 @@ ul{
     height: 0.1rem;
     background: #464445;
     position: absolute;
-    top: 1.3rem; 
+    top: -0.7rem; 
 }
 .title p .left{
     left: 4.5rem;
@@ -81,7 +93,7 @@ ul{
 }
 .title span{
     font-size: 0.7rem;
-    margin-top: -0.3rem;
+    margin-top: 0.7rem;
     display: block;
 }
 /*end*/
