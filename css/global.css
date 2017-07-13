@@ -1,15 +1,20 @@
-body,html{
+﻿body,html{
     color: #787878;
     font-family: "微软雅黑";
     font-size: 20px;
 }
 
+/*lgw*/
 
+<<<<<<< HEAD
 body,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
 }
 /* 用JS去写 */
+=======
+/* 用JS去写111 */
+>>>>>>> 8bbfc48baba90a90c11677837bbd8611f5ce6804
 .container{
     padding: 0rem 0.5rem;
     position: relative;
