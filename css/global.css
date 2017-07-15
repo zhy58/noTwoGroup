@@ -4,13 +4,12 @@
     font-size: 20px;
 }
 
-<<<<<<< HEAD
-/*lgw*/
+
+body{
+    margin: 0;
+}
 
 
-=======
-<<<<<<< HEAD
->>>>>>> 1432c9da255d8dc8448f969f37ad59cbe418fdaf
 body,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
@@ -20,7 +19,10 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li{
 .container{
     padding: 0rem 0.6rem;
 }
-
+img{
+    font-size: 0rem;
+    vertical-align: bottom;
+}
 
 p{
     font-size: 0.65rem;
@@ -44,10 +46,16 @@ a{
 ul{
     padding: 0;
 }
+h3{
+    font-size: 0.7rem;
+    color: #3a3a3a;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2rem;
+}
 /* 工具箱 */
 .pre{
     width: 100%;
-    margin: 0.5rem 0rem;
 }
 .text-center{
     text-align: center;
@@ -78,6 +86,7 @@ ul{
     line-height: 0rem;
     text-align: center;
     text-indent: 0rem;
+    color: #585757;
 }
 .title p .left,.title p .right{
    content: "";
@@ -87,17 +96,70 @@ ul{
     background: #464445;
     position: absolute;
     top: -0.7rem; 
+    left: 50%;
 }
 .title p .left{
-    left: 4.5rem;
+    margin-left: 2.7rem;
 }
 .title p .right{
-    right: 4.5rem;
-    
+    margin-left: -4rem;
 }
 .title span{
     font-size: 0.7rem;
     margin-top: 0.7rem;
     display: block;
 }
+.list-item{
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.list-item .item{
+    float: left;
+    width:6.9rem;
+}
+.list-item .item:nth-child(2n){
+    margin-left: 1rem;
+}
+.list-item .item img{
+    width: 100%;
+    height: 100%;
+}
 /*end*/
+
+/**/
+/*Hf样式*/
+/*hf_title*/
+.Hf_title{
+   margin-top: 2rem;
+}
+.Hf_title .text{
+    font-size: 1rem;
+    line-height: 0rem;
+    text-align: center;
+    text-indent: 0rem;
+    color: #585757;
+}
+.Hf_title p{
+    text-align: center;
+    width:100%;
+    padding:0;
+    text-indent: 0;
+}
+.Hf_title p span{
+    display: inline-block;
+}
+.Hf_title p .span_border{
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.1rem;
+    position: relative;
+    background: #464445;
+    top: -0.3rem;
+}
+.Hf_title span{
+    font-size: 0.7rem;    
+    display: block;
+    text-align: center;
+}
+/*Hf end*/
