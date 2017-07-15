@@ -1,0 +1,81 @@
+/*头部导航*/
+.nav{
+	height: 5rem;
+}
+.tel img{
+	height: 2.5rem;
+	padding: 1.2rem 1rem;
+}
+.logo img{
+	height: 4.3rem;
+	padding: 0.3rem 8.5rem;
+}
+.menu img{
+	height: 2rem;
+	padding: 1.5rem 1rem;
+}
+
+/*头部轮播*/
+.banner{
+	width: 100%;
+	height: 20rem;
+	background: #cdcdcd;
+}
+
+
+/**/
+.list-item{
+	margin-top: 1.5rem;
+	position: relative;
+	font-size: 0;
+}
+.list-item .item:nth-child(2n){
+    margin-left: 0rem;
+}
+.list-item .item{
+	/*width: 50%;*/
+	background-size: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.list-item .item-text{
+	font-size: 0.7rem;
+    color: #fff;
+    width: 100%;
+    background-color: rgba(151,212,206,.7);
+    position: absolute;
+    bottom: 0;
+}
+/**/
+.bg-blue{
+	height: 13.5rem;
+	background: #74c5be;
+    margin-top: 10.5rem;
+}
+
+.footer{
+	height: 9rem;
+}
+.footer_top{
+	height: 7rem;
+	padding-top: 1.5rem;
+}
+.footer_top_center{
+	/*width: 18rem;*/
+	text-align: center;
+}
+.box_img{
+	width: 4.5rem;
+	height: 5.5rem;
+	display: inline-block;
+	position: relative;			
+}
+.box_img span{
+	font-size: 0.7rem;
+	display: inline-block;
+	position:absolute;
+	width: 4.5rem;
+	height: 1rem;
+	left: 0rem;
+	bottom: -0.4rem;
+}
