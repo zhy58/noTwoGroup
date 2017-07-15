@@ -1,0 +1,184 @@
+body,html{
+    color: #787878;
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    padding: 0rem 0.6rem;
+}
+img{
+    font-size: 0rem;
+    vertical-align: bottom;
+}
+
+p{
+    font-size: 0.65rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    text-indent: 1.3rem;
+}
+p+p{
+    margin-top: 0.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 0.8rem;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+h3{
+    font-size: 0.7rem;
+    color: #3a3a3a;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2rem;
+}
+/* 工具箱 */
+.pre{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.left-float{
+    float: left;
+}
+.right-float{
+    float: right;
+}
+.clearfix:after,.clearfix:before{
+    clear: both;
+}
+.text-red{
+    color: #e93a57;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+/* 标题 */
+.title{
+   margin-top: 2rem;
+   position: relative;
+}
+.title .text{
+    font-size: 1rem;
+    line-height: 0rem;
+    text-align: center;
+    text-indent: 0rem;
+    color: #585757;
+}
+.title p .left,.title p .right{
+   content: "";
+    display: block;
+    width: 1.5rem;
+    height: 0.1rem;
+    background: #464445;
+    position: absolute;
+    top: -0.7rem; 
+    left: 50%;
+}
+.title p .left{
+    margin-left: 2.7rem;
+    margin-left: 2.5rem;
+}
+.title p .right{
+    margin-left: -4rem;
+}
+.title span{
+    font-size: 0.7rem;
+    margin-top: 0.7rem;
+    display: block;
+}
+
+.bule_color{
+    color: #74C5BE;
+}
+/*index 的 p 标签*/
+.page_index p{
+    text-indent: 0rem; 
+}
+/*end*/
+.list-item{
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.list-item .item{
+    float: left;
+    width:6.9rem;
+}
+.list-item .item:nth-child(2n){
+    margin-left: 1rem;
+}
+.list-item .item img{
+    width: 100%;
+    height: 100%;
+}
+
+/*hf_title*/
+.Hf_title{
+   margin-top: 2rem;
+}
+.Hf_title .text{
+    font-size: 1rem;
+    line-height: 0rem;
+    text-align: center;
+    text-indent: 0rem;
+    color: #585757;
+}
+.Hf_title p{
+    text-align: center;
+    width:100%;
+    padding:0;
+    text-indent: 0;
+}
+.Hf_title p span{
+    display: inline-block;
+}
+.Hf_title p .span_border{
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.1rem;
+    position: relative;
+    background: #464445;
+    top: -0.3rem;
+}
+.Hf_title span{
+    font-size: 0.7rem;    
+    display: block;
+    text-align: center;
+}
+
+
