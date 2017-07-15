@@ -4,13 +4,11 @@
     font-size: 20px;
 }
 
-<<<<<<< HEAD
+
 /*lgw*/
 
 
-=======
-<<<<<<< HEAD
->>>>>>> 1432c9da255d8dc8448f969f37ad59cbe418fdaf
+
 body,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
@@ -67,6 +65,9 @@ ul{
 .text-red{
     color: #e93a57;
 }
+.inline-block{
+    display: inline-block;
+}
 
 /* 标题 */
 .title{
@@ -99,5 +100,12 @@ ul{
     font-size: 0.7rem;
     margin-top: 0.7rem;
     display: block;
+}
+.bule_color{
+    color: #74C5BE;
+}
+/*index 的 p 标签*/
+.page_index p{
+    text-indent: 0rem; 
 }
 /*end*/
