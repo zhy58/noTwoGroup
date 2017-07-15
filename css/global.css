@@ -1,10 +1,10 @@
-﻿body,html{
+body,html{
     color: #787878;
     font-family: "微软雅黑";
     font-size: 20px;
 }
 
-/*hyh*/
+
 
 body{
     margin: 0;
@@ -76,6 +76,9 @@ h3{
 .text-red{
     color: #e93a57;
 }
+
+.inline-block{
+
 .inline-block {
     display: inline-block;
 }
@@ -113,6 +116,16 @@ h3{
     margin-top: 0.7rem;
     display: block;
 }
+
+.bule_color{
+    color: #74C5BE;
+}
+/*index 的 p 标签*/
+.page_index p{
+    text-indent: 0rem; 
+}
+/*end*/
+
 .list-item{
     margin-top: 1rem;
     overflow: hidden;
@@ -129,5 +142,3 @@ h3{
     height: 100%;
 }
 /*end*/
-
-/**/
