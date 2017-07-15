@@ -4,6 +4,7 @@
     font-size: 20px;
 }
 
+/*hyh*/
 
 body{
     margin: 0;
@@ -75,6 +76,9 @@ h3{
 .text-red{
     color: #e93a57;
 }
+.inline-block {
+    display: inline-block;
+}
 
 /* 标题 */
 .title{
@@ -99,7 +103,7 @@ h3{
     left: 50%;
 }
 .title p .left{
-    margin-left: 2.7rem;
+    margin-left: 2.5rem;
 }
 .title p .right{
     margin-left: -4rem;
