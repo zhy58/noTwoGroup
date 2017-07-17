@@ -1,20 +1,18 @@
 <template>
   <div class="hello">
-   <ul class="bottomBox">
-     <li>西方世界</li>
-   </ul>
+    
   </div>
 </template>
 
 <script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: '一个新的项目'
-    }
-  }
-}
+// export default {
+//   name: 'hello',
+//   data () {
+//     return {
+//       msg: 'Welcome to Your Vue.js App'
+//     }
+//   }
+// }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

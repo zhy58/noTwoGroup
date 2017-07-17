@@ -168,3 +168,13 @@
 		}
 	</style>
 
+<script type="es6">
+	export default{
+		name:'about',
+		data(){
+			return {
+
+			}
+		}
+	}
+</script>

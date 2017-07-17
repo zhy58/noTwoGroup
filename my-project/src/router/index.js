@@ -1,23 +1,28 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import index from '@/page/index'
+// import about from '@/page/about'
+import news from '@/page/news'
+import Mint from 'mint-ui'
 
+Vue.use(Mint)
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'index',
+      component: index
     },
+    // {
+    //   path: '/about',
+    //   name: 'about',
+    //   component: about
+    // },
     {
-      path: '/about',
-      component: require('../page/about.vue')
-    },
-    {
-      path: '/xx',
-      component: require('../page/xx.vue')
+      path: '/news',
+      name: 'news',
+      component: news
     }
   ]
 })
