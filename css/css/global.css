@@ -11,12 +11,6 @@ body{
 }
 
 
-
-body{
-    margin: 0;
-}
-
-
 body,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
@@ -85,6 +79,7 @@ h3{
 
 .inline-block{
 
+.inline-block {
     display: inline-block;
 }
 
@@ -111,7 +106,6 @@ h3{
     left: 50%;
 }
 .title p .left{
-    margin-left: 2.7rem;
     margin-left: 2.5rem;
 }
 .title p .right{
@@ -131,13 +125,14 @@ h3{
     text-indent: 0rem; 
 }
 /*end*/
+
 .list-item{
     margin-top: 1rem;
     overflow: hidden;
 }
 .list-item .item{
     float: left;
-    width: calc(50% - 0.5rem);
+    width:6.9rem;
 }
 .list-item .item:nth-child(2n){
     margin-left: 1rem;
@@ -146,40 +141,4 @@ h3{
     width: 100%;
     height: 100%;
 }
-
-/*hf_title*/
-.Hf_title{
-   margin-top: 2rem;
-}
-.Hf_title .text{
-    font-size: 1rem;
-    line-height: 0rem;
-    text-align: center;
-    text-indent: 0rem;
-    color: #585757;
-}
-.Hf_title p{
-    text-align: center;
-    width:100%;
-    padding:0;
-    text-indent: 0;
-}
-.Hf_title p span{
-    display: inline-block;
-}
-.Hf_title p .span_border{
-    content: "";
-    display: inline-block;
-    width: 1.5rem;
-    height: 0.1rem;
-    position: relative;
-    background: #464445;
-    top: -0.3rem;
-}
-.Hf_title span{
-    font-size: 0.7rem;    
-    display: block;
-    text-align: center;
-}
-
-
+/*end*/

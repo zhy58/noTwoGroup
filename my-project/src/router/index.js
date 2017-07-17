@@ -14,6 +14,10 @@ export default new Router({
       name: 'index',
       component: index
     },
+    {
+      path: '/about',
+      component: require('../page/about.vue')
+    },
     // {
     //   path: '/about',
     //   name: 'about',
